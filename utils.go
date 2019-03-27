@@ -5,6 +5,9 @@ import (
 	"strings"
 )
 
+// remove quotes, single quotes, and semicolons
+var replacer = strings.NewReplacer("\"", "", "'", "", ";", "")
+
 func starts(search string, line string) bool {
 	if len(line) < len(search) {
 		return false
@@ -17,14 +20,12 @@ func after(search string, line string) string {
 		return ""
 	}
 	line = line[len(search):]
-	line = strings.Replace(line, "\"", "", 2)
-	line = strings.Replace(line, ";", "", 2)
+	line = replacer.Replace(line)
 	return filepath.Clean(line)
 }
 
 func trueFile(callFrom string, importName string) string {
-	importName = strings.Replace(importName, "\"", "", 2)
-	importName = strings.Replace(importName, ";", "", 2)
+	importName = replacer.Replace(importName)
 	pos := strings.LastIndex(callFrom, "/")
 	ret := callFrom[:pos+1] + importName
 	return filepath.Clean(ret)

@@ -29,8 +29,7 @@ type importRec struct {
 var imports map[string]importRec
 
 func loadAndSplitFile(fileName string) (newFiles bool, err error) {
-	fileName = strings.Replace(fileName, "\"", "", 2)      // remove quotes
-	fileName = strings.Replace(fileName, ";", "", 2)       // and final semicolon
+	fileName = replacer.Replace(fileName)                  // romove quotes and semilcolons
 	fileName = strings.TrimSpace(filepath.Clean(fileName)) // resolve ../ etc
 	thisPath := filepath.Dir(fileName)
 	shortName := filepath.Base(fileName) // just the file name
