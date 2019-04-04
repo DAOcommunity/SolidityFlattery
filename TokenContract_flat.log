@@ -1,0 +1,84 @@
+2019/02/25 16:49:45 pre processing ../contracts/TokenContract.sol
+2019/02/25 16:49:45 pre processing ../contracts/dependencies/SafeMath.sol
+2019/02/25 16:49:45 pre processing ../contracts/dependencies/Ownable.sol
+2019/02/25 16:49:45 pre processing ../contracts/dependencies/RLP.sol
+2019/02/25 16:49:45 pre processing ../contracts/dependencies/BytesLib.sol
+2019/02/25 16:49:45 pre processing ../contracts/dependencies/ERC721Basic.sol
+2019/02/25 16:49:45 pre processing ../contracts/dependencies/ERC721BasicToken.sol
+2019/02/25 16:49:45 pre processing ../contracts/dependencies/AddressUtils.sol
+2019/02/25 16:49:45 Resolved  BytesLib.sol
+2019/02/25 16:49:45 Resolved  ERC721Basic.sol
+2019/02/25 16:49:45 ERC721BasicToken.sol remains unresolved
+2019/02/25 16:49:45 Resolved  AddressUtils.sol
+2019/02/25 16:49:45 TokenContract.sol remains unresolved
+2019/02/25 16:49:45 Resolved  SafeMath.sol
+2019/02/25 16:49:45 Resolved  Ownable.sol
+2019/02/25 16:49:45 Resolved  RLP.sol
+2019/02/25 16:49:45 Written BytesLib.sol (396) lines
+2019/02/25 16:49:45 Written ERC721Basic.sol (33) lines
+2019/02/25 16:49:45 ERC721BasicToken.sol remains unresolved
+2019/02/25 16:49:45 Written AddressUtils.sol (23) lines
+2019/02/25 16:49:45 TokenContract.sol remains unresolved
+2019/02/25 16:49:45 Written SafeMath.sol (26) lines
+2019/02/25 16:49:45 Written Ownable.sol (17) lines
+2019/02/25 16:49:45 Written RLP.sol (409) lines
+2019/02/25 16:49:45 Resolved  ERC721BasicToken.sol
+2019/02/25 16:49:45 TokenContract.sol remains unresolved
+2019/02/25 16:49:45 Written ERC721BasicToken.sol (217) lines
+2019/02/25 16:49:45 Resolved  TokenContract.sol
+2019/02/25 16:49:45 Written TokenContract.sol (165) lines
+2019/03/27 20:12:09 pre processing TokenContract.sol
+2019/03/27 20:12:09 pre processing dependencies/SafeMath.sol
+2019/03/27 20:12:09 pre processing dependencies/Ownable.sol
+2019/03/27 20:12:09 pre processing dependencies/RLP.sol
+2019/03/27 20:12:09 pre processing dependencies/BytesLib.sol
+2019/03/27 20:12:09 pre processing dependencies/ERC721Basic.sol
+2019/03/27 20:12:09 pre processing dependencies/ERC721BasicToken.sol
+2019/03/27 20:12:09 pre processing dependencies/AddressUtils.sol
+2019/03/27 20:12:09 Resolved  ERC721BasicToken.sol
+2019/03/27 20:12:09 Resolved  AddressUtils.sol
+2019/03/27 20:12:09 TokenContract.sol remains unresolved
+2019/03/27 20:12:09 Resolved  SafeMath.sol
+2019/03/27 20:12:09 Resolved  Ownable.sol
+2019/03/27 20:12:09 Resolved  RLP.sol
+2019/03/27 20:12:09 Resolved  BytesLib.sol
+2019/03/27 20:12:09 Resolved  ERC721Basic.sol
+2019/03/27 20:12:09 Written BytesLib.sol (0) lines
+2019/03/27 20:12:09 Written ERC721Basic.sol (0) lines
+2019/03/27 20:12:09 Written ERC721BasicToken.sol (0) lines
+2019/03/27 20:12:09 Written AddressUtils.sol (0) lines
+2019/03/27 20:12:09 TokenContract.sol remains unresolved
+2019/03/27 20:12:09 Written SafeMath.sol (0) lines
+2019/03/27 20:12:09 Written Ownable.sol (0) lines
+2019/03/27 20:12:09 Written RLP.sol (0) lines
+2019/03/27 20:12:09 Resolved  TokenContract.sol
+2019/03/27 20:12:09 Written TokenContract.sol (166) lines
+2019/03/27 20:12:54 pre processing TokenContract.sol
+2019/03/27 20:12:54 pre processing dependencies/SafeMath.sol
+2019/03/27 20:12:54 pre processing dependencies/Ownable.sol
+2019/03/27 20:12:54 pre processing dependencies/RLP.sol
+2019/03/27 20:12:54 pre processing dependencies/BytesLib.sol
+2019/03/27 20:12:54 pre processing dependencies/ERC721Basic.sol
+2019/03/27 20:12:54 pre processing dependencies/ERC721BasicToken.sol
+2019/03/27 20:12:54 pre processing dependencies/AddressUtils.sol
+2019/03/27 20:12:54 Resolved  Ownable.sol
+2019/03/27 20:12:54 Resolved  RLP.sol
+2019/03/27 20:12:54 Resolved  BytesLib.sol
+2019/03/27 20:12:54 Resolved  ERC721Basic.sol
+2019/03/27 20:12:54 ERC721BasicToken.sol remains unresolved
+2019/03/27 20:12:54 Resolved  AddressUtils.sol
+2019/03/27 20:12:54 TokenContract.sol remains unresolved
+2019/03/27 20:12:54 Resolved  SafeMath.sol
+2019/03/27 20:12:54 Written ERC721Basic.sol (33) lines
+2019/03/27 20:12:54 ERC721BasicToken.sol remains unresolved
+2019/03/27 20:12:54 Written AddressUtils.sol (23) lines
+2019/03/27 20:12:54 TokenContract.sol remains unresolved
+2019/03/27 20:12:54 Written SafeMath.sol (26) lines
+2019/03/27 20:12:54 Written Ownable.sol (17) lines
+2019/03/27 20:12:54 Written RLP.sol (409) lines
+2019/03/27 20:12:54 Written BytesLib.sol (396) lines
+2019/03/27 20:12:54 TokenContract.sol remains unresolved
+2019/03/27 20:12:54 Resolved  ERC721BasicToken.sol
+2019/03/27 20:12:54 Written ERC721BasicToken.sol (217) lines
+2019/03/27 20:12:54 Resolved  TokenContract.sol
+2019/03/27 20:12:54 Written TokenContract.sol (166) lines
